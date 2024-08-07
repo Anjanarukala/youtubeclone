@@ -1,0 +1,363 @@
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    
+    
+}
+.sidebar{
+    
+    background-color: black;
+    height: 100vh;
+    width: 70px;
+    position: fixed;
+    left:0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+.sidebar i{
+    margin-bottom: -0.45rem;
+    opacity: 0.75;
+}
+.sidebar i:hover{
+    opacity: 1;
+}
+.home{
+    font-size: 0.68rem;
+    font-weight: 500;
+    opacity: 0.78;
+}
+.home:hover{
+    opacity: 1;
+    
+}
+.shortimage{
+    height: 1.4rem;
+    width: 1.6rem;
+    margin-top: 1rem;
+    opacity: 0.75;
+}
+.shortimage:hover{
+    opacity: 1;
+}
+.shorts{
+    font-size: 0.68rem;
+    font-weight: 500;
+    opacity: 0.78;
+}
+.shorts:hover{
+    opacity: 1;
+}
+.subscri{
+    height: 1.4rem;
+    width: 1.6rem;
+    margin-top:1rem;
+    opacity: 0.75;
+}
+.subscri:hover{
+    opacity: 1;
+}
+.subs{
+    font-size: 0.68rem;
+    font-weight: 500;
+    opacity: 0.78;
+    
+    
+}
+.subs:hover{
+    opacity: 1;
+}
+.you{
+    height: 1.4rem;
+    width: 1.6rem;
+    margin-top: 1rem;
+    opacity: 0.75;
+}
+.you:hover{
+    opacity: 1;
+}
+.yt{
+    font-size: 0.68rem;
+    font-weight: 500;
+    opacity: 0.78;
+}
+.yt:hover{
+    opacity: 1;
+}
+.icons{
+    align-items: center;
+    margin-bottom: 11rem;
+    text-align: center;
+    
+}
+.stickybar1{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 3.5rem;
+    width: 100vw;
+    display: flex;
+    z-index: 10000;
+    
+    
+}
+.menu{
+    height: 2rem;
+    width: 1.8rem;
+    margin-top: 1rem;
+    margin-left: 1.35rem;
+    opacity: 0.75;
+
+    
+}
+.menu:hover{
+    opacity: 1;
+    
+}
+.youlogo{
+    height: 2rem;
+    width: 2rem;
+    padding-left: 1rem;
+    margin-right: 0.2rem;
+}
+.hu{
+ color: white;
+ font-size:18px;
+ font-family: "Oswald", sans-serif;
+ font-weight: 400;
+}
+sup{
+    font-weight: 200;
+    opacity: 0.7;
+}
+.eruku{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.formal{
+    display: flex;
+    margin: 1rem 1rem 1rem 3rem;
+    flex-wrap: wrap;
+    
+    
+}
+.form{
+
+    border: 0.25px solid grey;
+    border-radius: 20px;
+    border-color: gray;
+    padding: 0.25rem;
+    width:400px;
+    height: 1.5rem;
+    background-color: transparent;
+    color:white;
+    align-self: center;
+
+} 
+.butsea{
+    background-color: gray ;
+    opacity: 1;
+    border: 1px solid rgb(128, 128, 128,0.5);
+    border-radius: 90%;
+    height: 2rem;
+    width: 2rem;
+}
+
+.butmic{
+    background-color: gray ;
+    opacity: 1;
+    border: 1px solid grey;
+    border-radius: 90%;
+    height: 2rem;
+    width: 2rem;
+}
+.lasticons{
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 9rem;
+    position:fixed;
+    right: 10rem;
+}
+@media (max-width:1020px){
+    .lasticons{
+        display: none;
+    }
+    
+}
+
+.video{
+    margin-left: 4px;
+    margin-right: 2rem;
+    opacity: 0.75;
+}
+.video:hover{
+    opacity: 1;
+}
+.noti{
+    margin-right: 1rem;
+    opacity: 0.75;
+}
+.noti:hover{
+    opacity: 1;
+}
+.badge{ 
+    background-color: red;
+    border-radius: 50%;
+    width: 15px;
+    height: 10px;
+    position: relative;
+    right: 32px;
+    color: white;
+    padding: 0 1px 1px 1px;
+    opacity:0.75;
+} 
+.badge:hover{
+    opacity: 1;
+}
+.acc{
+    margin-left: 0.7rem;
+    opacity: 0.75;
+}
+.acc:hover{
+    opacity: 1;
+}
+.stickybar2{
+    background-color: black;
+    width: 100vw;
+    height:3.5rem ;
+    position:fixed;
+    top: 3.5rem;
+    left: 70px;
+    display: flex;
+    overflow:hidden;
+    z-index: 10000;
+
+}
+
+.fullforms{
+align-items: center;
+margin-top: 1rem;
+overflow-x: auto;
+scroll-behavior: smooth;
+
+}
+button{
+    border-radius:8px;
+    padding:7px;
+    margin-left: 8px;
+    background-color: gray;
+    opacity: 0.76;
+    border: 0 solid grey;
+    color: white;
+    margin-bottom: 1rem;
+    display: inline-block;
+    
+}
+button:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    
+}
+.arrow{
+    width: 5rem;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin:1rem 0 6rem 5rem;
+    font-size: 1.45rem;
+    opacity: 0.87;
+    position: fixed;
+    top:2.3rem;
+    right: 0;
+    background-color: black;
+    opacity: 1;
+}
+.arrow i{
+    align-items: center;
+}
+.arrow:hover{
+    opacity: 1;
+}
+.arrowrightclick{
+    transform: translate(-12rem);
+}
+.main-content{
+    background-color: black;
+    flex: 1;
+    overflow: visible;
+    display: flex;   
+    margin-top: 7.5rem;
+    margin-left: 25px;
+    color: white;
+}
+.poster{
+    border-radius: 12px;
+
+}
+.poster:hover{
+    border-radius: 0px;
+}
+.channel{
+    height: 2.5rem;
+    width: 2.5rem;
+    display: grid;
+    border-radius: 50%;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    justify-content: center;    
+}
+.pp{
+    margin-left: 0.4rem;
+    font-weight: 300;
+    font-size: small;
+    margin-top: -8px;
+}
+.youtuber{
+    margin-top: -0.34rem;
+}
+.views{
+    margin-top: -0.7rem;
+}
+.down{
+    display: flex;   
+}
+.verri{
+    display: flex;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+@media (max-width:775px){
+    .form{
+        width:50%;
+    }
+    
+}
+@media (max-width:790px){
+    .butmic{
+        display: none;
+    }
+}
+
+video{
+    height: 300px;
+    width: 300px;
+}
